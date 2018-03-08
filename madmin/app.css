@@ -7,3 +7,21 @@
 .determinate.visitors-count {
   width: 40%;
 }
+
+.determinate.blog-post-count {
+  width: 20%;
+}
+
+.determinate.comments-count {
+  width: 40%;
+}
+
+.determinate.users {
+  width: 10%;
+}
+
+.chart {
+  height: 300%;
+  max-width: 100%;
+  margin-top: 10px;
+}
