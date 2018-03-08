@@ -1,3 +1,20 @@
 .main-header {
+    background: url(img/background.jpg) center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+    color: #fff;
 
+    .showcase {
+        padding-top: 100px;
+    }
+
+    &-inner {
+        
+    }
+}
+
+.active-link {
+    color: #d847f1;
+    font-weight: bold;
 }
