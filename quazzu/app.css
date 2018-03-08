@@ -1,6 +1,5 @@
 .main-header {
   background: url(img/background.jpg) center;
-  -webkit-background-size: cover;
   background-size: cover;
   min-height: 600px;
   color: #fff;
@@ -10,7 +9,49 @@
   padding-top: 100px;
 }
 
+.main-header-inner {
+  background: url(img/background.jpg) center;
+  background-size: cover;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
 .active-link {
   color: #d847f1;
   font-weight: bold;
+}
+
+.section-developers, .section-podcast {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
+  min-height: 160px;
+}
+
+@media (max-width: 500px) {
+  .section-developers, .section-podcast {
+    min-height: 240px;
+  }
+}
+
+.section-developers {
+  background: url(img/code.jpg);
+}
+
+.section-podcast {
+  background: url(img/circuit.jpg);
+}
+
+.section-podcast a {
+  margin-top: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.9);
 }
