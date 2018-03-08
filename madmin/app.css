@@ -1,4 +1,9 @@
 .loader {
   position: absolute;
   top: 40px;
-  left: 47px; }
+  left: 47px;
+}
+
+.determinate.visitors-count {
+  width: 40%;
+}
