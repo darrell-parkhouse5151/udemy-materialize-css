@@ -265,6 +265,37 @@
     </footer>
     <!-- end footer --->
 
+    <!--  add post model --->
+    <div id="post-modal" class="modal">
+        <div class="modal-content">
+            <h4>add post</h4>
+            <form>
+                <div class="input-field">
+                    <input type="text" id="title">
+                    <label for="title">Title</label>
+                </div>
+                <div class="input-field">
+                    <select id="category">
+                        <option value="value" disabled selected>Select options</option>
+                        <option value="1">Web development</option>
+                        <option value="2">Graphic design</option>
+                        <option value="3">Tech gadget</option>
+                        <option value="4">Other</option>
+                    </select>
+                    <label for="category"></label>
+                </div>
+                <div class="input-field">
+                    <textarea name="body" class="materialize-textarea" id="body"></textarea>
+                    <label for="body">Body</label>
+                </div>
+            </form>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+            </div>
+        </div>
+    </div>
+    <!-- end add post modal --->
+
     <!-- preloader --->
     <div class="loader preloader-wrapper big active">
         <div class="spinner-layer spinner-blue-only">
