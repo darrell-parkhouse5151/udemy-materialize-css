@@ -3,3 +3,21 @@
     top: 40px;
     left: 47px;
 }
+
+.determinate {
+    &.visitors-count {
+        width: 40%;
+    }
+
+    &.blog-posts {
+        width: 20%;
+    }
+
+    &.comments-count {
+        width: 40%;
+    }
+
+    &.users {
+        width: 10%;
+    }
+}
